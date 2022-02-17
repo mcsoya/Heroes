@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Source+Serif+4:ital,wght@1,300&display=swap');
+
+* {
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+  overflow-y: auto;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(37, 37, 37, 0.8);
+  display: table;
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.logo img {
+  width: 300px;
+  height: auto;
+}
+
+.ColorFilter {
+  font-size: 0px;
+}
+
+#contents {
+  display: block;
+}
+/*-----------------------------------------------------------------*/
+#HumanList {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: table;
+  white-space: nowrap;
+  table-layout: fixed;
+}
+
+.Grade {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(37, 37, 37, 0.8);
+  border: 1px solid rgb(63, 63, 63);
+  position: relative;
+
+  display: table-row;
+  float: left;
+}
+
+.GradeName {
+  min-width: 200px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  border-right: 1px solid rgb(63, 63, 63);
+  background-color: rgba(31, 31, 31, 0.880);
+  display: table-cell;
+  position: relative;
+}
+
+.ColorFilter {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  z-index: 20;
+  left: auto;
+  top: auto;
+  pointer-events: none;
+}
+.Grade:hover .ColorFilter {
+  background-color: rgb(112, 127, 255);
+  opacity: 0.1;
+}
+
+.GradeName i {
+  color: white;
+  font-size: 20px;
+  font-family: 'Serif', sans-serif;
+}
+
+.Grade ul {
+  padding: 0;
+  width: 1150px;
+  height: 100px;
+  list-style: none;
+
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.Grade ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  pointer-events: all;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.Grade ul li:hover {
+  border: 1px solid rgb(255, 143, 143);
+  border-radius: 10px;
+}
+.Grade ul li:first-child {
+  margin-left: 30px;
+}
+
+
+.Grade ul li img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/*-----------------------------------------------------------------*/
+#Information {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 15;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+#InformationBG {
+  position: absolute;
+  display: table;
+  left: calc(50% - 500px);
+  top: calc(50% - 234px);
+  background-color: white;
+  width: 1000px;
+  height: 468px;
+  z-index: 20;
+  border-radius: 30px;
+  border-bottom-right-radius: 0px;
+}
+
+#closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 28px;
+  text-decoration: none;
+}
+#closeButton a {
+  color: white;
+  text-decoration: none;
+}
+
+.chooseImage {
+  width: calc(100% - 70%);
+  border-top-left-radius: 30px;
+  height: 300px;
+  float: left;
+}
+.chooseSong {
+  width: calc(100% - 30%);
+  border-top-right-radius: 30px;
+  height: 300px;
+  float: left;
+}
+
+#skill {
+  clear: both;
+  position: absolute;
+  top: 300px;
+  text-align: center;
+}
+
+#skill table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+#skill table tr {
+  border: 1px solid black;
+}
+#skill table td {
+  border: 1px solid black;
+}
+
+#skill table .whoName {
+  background-color: rgb(245, 255, 221);
+}
+
+#skill table .th {
+  width: 150px;
+  height: auto;
+  background-color: rgb(235, 235, 235);
+}
+#skill table .td {
+  width: 800px;
+  font-size: 14px;
+}
+
+/*-----------------------------------------------------------------*/
+footer {
+  clear: both;
+  width: 100%;
+  height: 125px;
+  background-color: rgba(37, 37, 37, 0.8);
+}
+.footerComments {
+  text-align: center;
+  line-height: 125px;
+  color: rgba(24, 24, 24, 0.89);
+}
