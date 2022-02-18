@@ -24,13 +24,7 @@ var informationSong = document.querySelector(".chooseSong");
 var information = document.querySelector("#Information");
 var weaponName = [];
 
-/* alert("Practice Web. Image isnt mine, u want download, go to pixiv.");*/
-
-/* 
-유튜브 재생 안되는거 목록
-
-
-*/
+alert("Practice Web. Image isnt mine, u want download, go to pixiv.");
 
 var Character = [
   ["블레이더", 
