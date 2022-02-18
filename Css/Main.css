@@ -146,7 +146,6 @@ header {
   top: calc(50% - 234px);
   background-color: white;
   width: 1000px;
-  height: 468px;
   z-index: 20;
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
@@ -196,6 +195,7 @@ header {
 }
 #skill table td {
   border: 1px solid black;
+  background-color: white;
 }
 
 #skill table .whoName {
