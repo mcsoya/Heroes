@@ -24,8 +24,6 @@ var informationSong = document.querySelector(".chooseSong");
 var information = document.querySelector("#Information");
 var weaponName = [];
 
-alert("Practice Web. Image isnt mine, u want download, go to pixiv.");
-
 var Character = [
   ["블레이더", 
   ["5초마다 한 번의 공격을 방어하여 자신에게 들어오는 데미지를 무효화 한다.", 
