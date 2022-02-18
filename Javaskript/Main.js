@@ -677,6 +677,6 @@ function setCharacterInfo(str1, i) {
   cooldownSR.innerHTML = Character[i][2][5];
   
   informationSong.src = Character[i][4];
-  let imageLink = "../Images/" + Character[i][3] + "/" + str1 + ".png";
+  let imageLink = "./Images/" + Character[i][3] + "/" + str1 + ".png";
   informationImage.src = imageLink;
 }
