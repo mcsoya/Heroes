@@ -150,6 +150,7 @@ header {
   z-index: 20;
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
+  border-bottom-left-radius: 0px;
 }
 
 #closeButton {
