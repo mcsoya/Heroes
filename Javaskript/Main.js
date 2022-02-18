@@ -630,8 +630,7 @@ window.onkeydown = function(e) {
 };
 
 function openInformation(str1) {
-  $("#Information").css({"display" : "block"});
-  $("body").css({"overflowY" : "hidden"});
+  
   findCharacter(str1);
 }
 
